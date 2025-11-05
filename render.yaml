@@ -1,0 +1,6 @@
+services:
+  - type: web
+    env: python
+    name: asanpresta-msg
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py
